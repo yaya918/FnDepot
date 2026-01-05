@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # FnDepot 应用源仓库
 
 这是一个符合 FnDepot 第三方商店上架规范的应用源仓库。
@@ -166,3 +167,6 @@ git push origin main
 ## 许可证
 
 本仓库中的各个应用遵循其各自的许可证。请查看每个应用目录中的 LICENSE 文件或 README.md 中的许可证信息。
+=======
+# FnDepot
+>>>>>>> 94ed23df3be6ef116c427d8b259af610b2a353c9
