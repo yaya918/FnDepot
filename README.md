@@ -9,7 +9,7 @@
 | Bark Server | 1.0.0 | Finb/https://github.com/Finb | 推送通知服务端 |
 | 异星工厂服务器 | 2.0.72 | Wube Software/https://www.factorio.com | 自动化工厂游戏服务器 |
 | MoviePilot | v2.8.8-1 | jxxghp/https://github.com/jxxghp | 自动化媒体管理工具 |
-| 夸克网盘自动转存 | 1.0.0 | yayaol/https://github.com/yayaol | 网盘自动转存工具 |
+| 夸克网盘自动转存 | 1.0.0 | Cp0204/https://github.com/Cp0204/quark-auto-save | 网盘自动转存工具 |
 | Suwayomi Server | v2.1.1867-1 | Suwayomi/https://github.com/Suwayomi | 漫画阅读服务器 |
 
 ---
