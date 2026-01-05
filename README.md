@@ -1,16 +1,16 @@
-# FnDepot 应用源-moxyis
+# FnDepot 应用源-yaya
 最后更新: 2025-12-25
 
 ## 应用清单
 
 | 应用名称 | 版本号 | 开发者/GitHub仓库 | 备注 |
 |---------|--------|------------------|------|
-| 彩虹聚合DNS管理系统 | 2.13 | 消失的彩虹海/https://github.com/netcccyun/dnsmgr | Docker |
-| ZFile | 4.5.0 | zhaojun1998/https://github.com/zfile-dev/zfile | Docker |
-| NapCatQQ | 4.10.9 | NapNeko/https://github.com/NapNeko/NapCatQQ | Docker |
-| PanIndex | 3.1.5 | libsgh/https://github.com/px-org/PanIndex |  |
-| Cloudreve | 4.10.1 | Cloudreve/https://cloudreve.org/ |  |
-| One API | 0.6.10 | songquanpeng/https://github.com/songquanpeng/one-api | Docker |
+| AllinSSL | 1.0.0 | allinssl/https://github.com/allinssl/allinssl | SSL证书管理工具 |
+| Bark Server | 1.0.0 | Finb/https://github.com/Finb | 推送通知服务端 |
+| 异星工厂服务器 | 2.0.72 | Wube Software/https://www.factorio.com | 自动化工厂游戏服务器 |
+| MoviePilot | v2.8.8-1 | jxxghp/https://github.com/jxxghp | 自动化媒体管理工具 |
+| 夸克网盘自动转存 | 1.0.0 | yayaol/https://github.com/yayaol | 网盘自动转存工具 |
+| Suwayomi Server | v2.1.1867-1 | Suwayomi/https://github.com/Suwayomi | 漫画阅读服务器 |
 
 ---
 
