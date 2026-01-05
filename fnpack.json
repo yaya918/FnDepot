@@ -43,22 +43,6 @@
       "1.1.0": "性能优化和Bug修复"
     }
   },
-  "fpk-moviepilot": {
-    "display_name": "MoviePilot",
-    "version": "v2.8.8-1",
-    "desc": "MoviePilot 是一个基于 NAStool 部分代码重新设计的自动化媒体管理工具。\n专注于自动化核心需求，减少问题同时更易于扩展和维护。",
-    "labels": "媒体,自动化,管理,下载",
-    "download_url": "https://github.com/yaya918/FnDepot/releases/download/1.0.0/fpk-moviepilot.fpk",
-    "author": "jxxghp",
-    "author_url": "https://github.com/jxxghp",
-    "bug_report_url": "https://github.com/jxxghp/MoviePilot/issues",
-    "install_type": "系统空间",
-    "size": "85",
-    "history": {
-      "v2.8.8-1": "飞牛NAS适配版本",
-      "v2.8.8": "主要功能更新和Bug修复"
-    }
-  },
   "fpk-quark-auto-save": {
     "display_name": "夸克网盘自动转存",
     "version": "1.0.0",

@@ -8,7 +8,6 @@
 | AllinSSL | 1.0.0 | allinssl/https://github.com/allinssl/allinssl | SSL证书管理工具 |
 | Bark Server | 1.0.0 | Finb/https://github.com/Finb | 推送通知服务端 |
 | 异星工厂服务器 | 2.0.72 | Wube Software/https://www.factorio.com | 自动化工厂游戏服务器 |
-| MoviePilot | v2.8.8-1 | jxxghp/https://github.com/jxxghp | 自动化媒体管理工具 |
 | 夸克网盘自动转存 | 1.0.0 | Cp0204/https://github.com/Cp0204/quark-auto-save | 网盘自动转存工具 |
 | Suwayomi Server | v2.1.1867-1 | Suwayomi/https://github.com/Suwayomi | 漫画阅读服务器 |
 
@@ -50,11 +49,6 @@ FnDepot/
 │   ├── go-emby2openlist.fpk
 │   ├── README.md
 │   └── Preview/
-├── moviepilot/               # MoviePilot
-│   ├── ICON.PNG
-│   ├── moviepilot.fpk
-│   ├── README.md
-│   └── Preview/
 ├── openlist/                 # OpenList
 │   ├── ICON.PNG
 │   ├── openlist.fpk
@@ -88,12 +82,11 @@ FnDepot/
 2. **bark** - Bark 推送通知服务端
 3. **factorio** - 异星工厂游戏服务器
 4. **go-emby2openlist** - Emby/Jellyfin 转 OpenList 工具
-5. **moviepilot** - 自动化媒体管理工具
-6. **openlist** - 现代化文件列表程序
-7. **openlist-lite** - OpenList 轻量版本
-8. **quark-auto-save** - 夸克网盘自动转存工具
-9. **suwayomi** - 漫画阅读服务器
-10. **v2raya** - v2ray 图形化代理客户端
+5. **openlist** - 现代化文件列表程序
+6. **openlist-lite** - OpenList 轻量版本
+7. **quark-auto-save** - 夸克网盘自动转存工具
+8. **suwayomi** - 漫画阅读服务器
+9. **v2raya** - v2ray 图形化代理客户端
 
 ## 部署到 GitHub
 
