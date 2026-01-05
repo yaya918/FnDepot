@@ -1,0 +1,89 @@
+{
+  "fpk-allinssl": {
+    "display_name": "AllinSSL",
+    "version": "1.0.0",
+    "desc": "AllinSSL 是一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。支持 Let's Encrypt 证书申请、多平台部署（CDN/面板/云存储）、证书过期监控和安全入口保护。\n本应用为二进制封装版本，基于开源项目构建。",
+    "labels": "工具,网络,安全,SSL",
+    "author": "allinssl",
+    "author_url": "https://github.com/allinssl/allinssl",
+    "bug_report_url": "https://github.com/allinssl/allinssl/issues",
+    "install_type": "系统空间",
+    "size": "0.06",
+    "history": {
+      "1.0.0": "初始版本发布"
+    }
+  },
+  "fpk-bark": {
+    "display_name": "Bark Server",
+    "version": "1.0.0",
+    "desc": "Bark 推送通知服务端，支持 iOS、Android、macOS 设备的消息推送。\n提供 RESTful API 接口，方便集成到各种自动化脚本和系统中。",
+    "labels": "工具,通知,推送,移动",
+    "author": "Finb",
+    "author_url": "https://github.com/Finb",
+    "bug_report_url": "https://github.com/Finb/Bark/issues",
+    "install_type": "系统空间",
+    "size": "5.6",
+    "history": {
+      "1.0.0": "初始版本发布"
+    }
+  },
+  "fpk-factorio": {
+    "display_name": "异星工厂服务器",
+    "version": "2.0.72",
+    "desc": "异星工厂（Factorio）服务器 - 一个自动化工厂建设游戏服务器。\n支持多人联机，提供完整的游戏服务器管理功能。",
+    "labels": "游戏,服务器,多人,自动化",
+    "author": "Wube Software",
+    "author_url": "https://www.factorio.com",
+    "bug_report_url": "https://forums.factorio.com",
+    "install_type": "系统空间",
+    "size": "86",
+    "history": {
+      "2.0.72": "最新稳定版本",
+      "1.1.0": "性能优化和Bug修复"
+    }
+  },
+  "fpk-moviepilot": {
+    "display_name": "MoviePilot",
+    "version": "v2.8.8-1",
+    "desc": "MoviePilot 是一个基于 NAStool 部分代码重新设计的自动化媒体管理工具。\n专注于自动化核心需求，减少问题同时更易于扩展和维护。",
+    "labels": "媒体,自动化,管理,下载",
+    "author": "jxxghp",
+    "author_url": "https://github.com/jxxghp",
+    "bug_report_url": "https://github.com/jxxghp/MoviePilot/issues",
+    "install_type": "系统空间",
+    "size": "85",
+    "history": {
+      "v2.8.8-1": "飞牛NAS适配版本",
+      "v2.8.8": "主要功能更新和Bug修复"
+    }
+  },
+  "fpk-quark-auto-save": {
+    "display_name": "夸克网盘自动转存",
+    "version": "1.0.0",
+    "desc": "夸克网盘自动转存工具，集成pansou版本，实现一键搜索转存。\n支持自动转存、批量操作、任务管理等功能。",
+    "labels": "工具,网盘,转存,自动化",
+    "author": "yayaol",
+    "author_url": "https://github.com/yayaol",
+    "bug_report_url": "https://github.com/yayaol/quark-auto-save/issues",
+    "install_type": "系统空间",
+    "size": "0.13",
+    "history": {
+      "1.0.0": "初始版本发布"
+    }
+  },
+  "fpk-suwayomi": {
+    "display_name": "Suwayomi Server",
+    "version": "v2.1.1867-1",
+    "desc": "Suwayomi 是一个开源的漫画阅读服务器。\n支持多种漫画源，提供Web阅读界面和移动端应用。",
+    "labels": "媒体,漫画,阅读,服务器",
+    "author": "Suwayomi",
+    "author_url": "https://github.com/Suwayomi",
+    "bug_report_url": "https://github.com/Suwayomi/Suwayomi-Server/issues",
+    "install_type": "系统空间",
+    "size": "310",
+    "history": {
+      "v2.1.1867-1": "飞牛NAS适配版本",
+      "v2.1.1867": "主要功能更新和Bug修复"
+    }
+  }
+}
