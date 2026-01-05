@@ -1,4 +1,19 @@
-<<<<<<< HEAD
+# FnDepot 应用源-moxyis
+最后更新: 2025-12-25
+
+## 应用清单
+
+| 应用名称 | 版本号 | 开发者/GitHub仓库 | 备注 |
+|---------|--------|------------------|------|
+| 彩虹聚合DNS管理系统 | 2.13 | 消失的彩虹海/https://github.com/netcccyun/dnsmgr | Docker |
+| ZFile | 4.5.0 | zhaojun1998/https://github.com/zfile-dev/zfile | Docker |
+| NapCatQQ | 4.10.9 | NapNeko/https://github.com/NapNeko/NapCatQQ | Docker |
+| PanIndex | 3.1.5 | libsgh/https://github.com/px-org/PanIndex |  |
+| Cloudreve | 4.10.1 | Cloudreve/https://cloudreve.org/ |  |
+| One API | 0.6.10 | songquanpeng/https://github.com/songquanpeng/one-api | Docker |
+
+---
+
 # FnDepot 应用源仓库
 
 这是一个符合 FnDepot 第三方商店上架规范的应用源仓库。
@@ -167,6 +182,3 @@ git push origin main
 ## 许可证
 
 本仓库中的各个应用遵循其各自的许可证。请查看每个应用目录中的 LICENSE 文件或 README.md 中的许可证信息。
-=======
-# FnDepot
->>>>>>> 94ed23df3be6ef116c427d8b259af610b2a353c9
