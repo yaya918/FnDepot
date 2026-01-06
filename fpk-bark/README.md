@@ -1,6 +1,6 @@
 # Bark Server
 
-Bark 推送通知服务端，支持 iOS、Android、macOS 设备的消息推送。
+Bark 推送通知服务端，支持 iOS、Android、macOS 设备的消息推送。（飞牛应用商店已同步上架，版本相同）
 
 ## 功能特性
 
