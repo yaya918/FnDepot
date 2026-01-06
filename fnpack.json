@@ -59,7 +59,7 @@
   },
   "fpk-suwayomi": {
     "display_name": "Suwayomi Server",
-    "version": "v2.1.1867-1",
+    "version": "v2.1.1867-4",
     "desc": "Suwayomi 是一个开源的漫画阅读服务器。\n支持多种漫画源，提供Web阅读界面和移动端应用。",
     "labels": "媒体,漫画,阅读,服务器",
     "download_url": "https://github.com/yaya918/FnDepot/releases/download/1.0.0/fpk-suwayomi.fpk",
@@ -69,6 +69,7 @@
     "install_type": "系统空间",
     "size": "310",
     "history": {
+      "v2.1.1867-4": "指定运行环境变量为utf-8，修复漫画下载到100%保存失败的问题",
       "v2.1.1867-1": "飞牛NAS适配版本",
       "v2.1.1867": "主要功能更新和Bug修复"
     }
