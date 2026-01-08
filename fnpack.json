@@ -73,5 +73,19 @@
       "v2.1.1867-1": "飞牛NAS适配版本",
       "v2.1.1867": "主要功能更新和Bug修复"
     }
+  },
+  "fpk-xiaomi-album-syncer": {
+    "display_name": "小米相册同步器",
+    "version": "0.10.0",
+    "desc": "全量/增量/定时下载小米云服务中的相册/录音到本地。支持Web UI管理、自动刷新Cookie、按相册分类存储、定时任务等功能。安装后请添加passToken与userId后使用。",
+    "labels": "工具,同步,相册,备份",
+    "author": "Coooolfan",
+    "author_url": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+    "bug_report_url": "https://github.com/Coooolfan/XiaomiAlbumSyncer/issues",
+    "install_type": "系统空间",
+    "size": "0.04",
+    "history": {
+      "0.10.0": "初始版本发布"
+    }
   }
 }
