@@ -1,11 +1,13 @@
 # 忽略过大的.fpk文件
 fpk-suwayomi/fpk-suwayomi.fpk
+fpk-xiaomi-album-syncer/fpk-xiaomi-album-syncer.fpk
 
 # 临时文件和构建文件
 *.tmp
 *.temp
 *.log
 *.bak
+*.backup
 *.swp
 *~
 
