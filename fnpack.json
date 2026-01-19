@@ -87,5 +87,19 @@
     "history": {
       "0.10.0": "初始版本发布"
     }
+  },
+  "fpk-icloud-photos": {
+    "display_name": "iCloud-Photos",
+    "version": "2.0.1",
+    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web项目。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。",
+    "labels": "工具,照片,备份,iCloud",
+    "author": "yaya",
+    "author_url": "https://b23.tv/DqP4Ji5",
+    "bug_report_url": "https://github.com/yaya918",
+    "install_type": "系统空间",
+    "size": "0.9",
+    "history": {
+      "2.0.1": "初始版本发布"
+    }
   }
 }
