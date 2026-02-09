@@ -13,6 +13,7 @@
 | 小米相册同步器 | 0.10.0 | Coooolfan/https://github.com/Coooolfan/XiaomiAlbumSyncer | 小米云服务相册/录音备份工具 |
 | iCloud-Photos | 2.0.1 | yaya/https://github.com/yaya918 | iCloud照片下载工具 |
 | Scrypted | 0.144.2 | koush/https://github.com/koush/scrypted | 智能家居视频集成平台和NVR（和商店版本一样） |
+| CrowdSec | 1.0.0 | crowdsecurity/https://github.com/crowdsecurity/crowdsec | 开源协作式入侵防御系统 |
 
 ---
 
@@ -38,6 +39,7 @@
 6. **xiaomi-album-syncer** - 小米相册同步器
 7. **icloud-photos** - iCloud照片下载工具
 8. **scrypted** - 智能家居视频集成平台和NVR
+9. **crowdsec** - CrowdSec 安全防护系统
 
 
 ## 关于作者

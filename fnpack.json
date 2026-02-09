@@ -115,5 +115,19 @@
     "history": {
       "0.144.2": "初始版本发布"
     }
+  },
+  "fpk-crowdsec": {
+    "display_name": "CrowdSec",
+    "version": "1.0.0",
+    "desc": "CrowdSec 是一个开源的、协作式的入侵防御系统（IPS），通过收集和分析来自全球用户的安全威胁情报，为服务器提供实时的安全防护。支持威胁检测、自动防护、全球协作、轻量级运行和易于集成。适用于 Web 服务器防护、SSH 暴力破解防护、API 接口防护、DDoS 攻击缓解等场景。",
+    "labels": "安全,防护,入侵检测,网络安全",
+    "author": "crowdsecurity",
+    "author_url": "https://github.com/crowdsecurity/crowdsec",
+    "bug_report_url": "https://github.com/crowdsecurity/crowdsec/issues",
+    "install_type": "系统空间",
+    "size": "49",
+    "history": {
+      "1.0.0": "初始版本发布"
+    }
   }
 }
