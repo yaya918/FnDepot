@@ -1,5 +1,5 @@
 # FnDepot 应用源-yaya
-最后更新: 2026-1-19
+最后更新: 2026-2-9
 
 ## 应用清单
 
@@ -12,6 +12,7 @@
 | Suwayomi Server | v2.1.1867-1 | Suwayomi/https://github.com/Suwayomi | 漫画阅读服务器 |
 | 小米相册同步器 | 0.10.0 | Coooolfan/https://github.com/Coooolfan/XiaomiAlbumSyncer | 小米云服务相册/录音备份工具 |
 | iCloud-Photos | 2.0.1 | yaya/https://github.com/yaya918 | iCloud照片下载工具 |
+| Scrypted | 0.144.2 | koush/https://github.com/koush/scrypted | 智能家居视频集成平台和NVR（和商店版本一样） |
 
 ---
 
@@ -36,6 +37,7 @@
 5. **suwayomi** - 漫画阅读服务器
 6. **xiaomi-album-syncer** - 小米相册同步器
 7. **icloud-photos** - iCloud照片下载工具
+8. **scrypted** - 智能家居视频集成平台和NVR
 
 
 ## 关于作者

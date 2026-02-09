@@ -101,5 +101,19 @@
     "history": {
       "2.0.1": "初始版本发布"
     }
+  },
+  "fpk-scrypted": {
+    "display_name": "Scrypted",
+    "version": "0.144.2",
+    "desc": "Scrypted是一个高性能家庭视频集成平台和NVR（网络视频录像机），支持HomeKit、Google Home和Alexa。提供实时视频流、智能检测、插件化架构，可将各种摄像头和智能设备集成到统一的智能家居生态中。基于Scrypted开源项目进行打包。数据默认保存在/vol[x]/@appshare/scrypted-data（路径中不能存在中文）。",
+    "labels": "智能家居,视频,NVR,摄像头,HomeKit",
+    "author": "koush",
+    "author_url": "https://github.com/koush/scrypted",
+    "bug_report_url": "https://github.com/koush/scrypted/issues",
+    "install_type": "系统空间",
+    "size": "1.9",
+    "history": {
+      "0.144.2": "初始版本发布"
+    }
   }
 }

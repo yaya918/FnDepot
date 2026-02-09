@@ -1,0 +1,16 @@
+appname=Scrypted
+version=0.144.2
+display_name=Scrypted
+desc=Scrypted是一个高性能家庭视频集成平台和NVR（网络视频录像机），支持HomeKit、Google Home和Alexa。提供实时视频流、智能检测、插件化架构，可将各种摄像头和智能设备集成到统一的智能家居生态中。基于Scrypted开源项目进行打包。数据默认保存在/vol[x]/@appshare/scrypted-data（路径中不能存在中文）。打包作者 B站：芽芽ol、公众号：芽芽打包匠。进群解锁神秘更新，催更直通作者！👉 QQ交流群：446562013 等你来“暴更”！
+platform=x86
+source=thirdparty
+
+maintainer=koush
+maintainer_url=https://github.com/koush/scrypted
+distributor=yaya
+distributor_url=https://b23.tv/DqP4Ji5
+
+service_port=10443
+checkport=true
+desktop_applaunchname=Scrypted.main
+install_dep_apps=python312:nodejs_v22
