@@ -1,5 +1,5 @@
 # FnDepot 应用源-yaya
-最后更新: 2026-2-12
+最后更新: 2026-3-14
 
 ## 应用清单
 
@@ -11,7 +11,7 @@
 | 夸克网盘自动转存 | 1.0.0 | Cp0204/https://github.com/Cp0204/quark-auto-save | 网盘自动转存工具（Docker应用） |
 | Suwayomi Server | v2.1.1867-1 | Suwayomi/https://github.com/Suwayomi | 漫画阅读服务器 |
 | 小米相册同步器 | 0.10.0 | Coooolfan/https://github.com/Coooolfan/XiaomiAlbumSyncer | 小米云服务相册/录音备份工具 |
-| iCloud-Photos | 2.0.1 | yaya/https://github.com/yaya918 | iCloud照片下载工具 |
+| iCloud-Photos | 2.0.3-2 | yaya/https://github.com/yaya918 | iCloud照片下载工具（修复了因上游更新引起的安装失败问题，提高大文件下载稳定性） |
 | Scrypted | 0.144.2 | koush/https://github.com/koush/scrypted | 智能家居视频集成平台和NVR（和商店版本一样） |
 | CrowdSec | 1.7.6-19 | crowdsecurity/https://github.com/crowdsecurity/crowdsec | 开源协作式入侵防御系统 |
 

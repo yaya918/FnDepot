@@ -1,43 +1,49 @@
 {
   "fpk-allinssl": {
     "display_name": "AllinSSL",
+    "platform": "x86",
     "version": "1.0.0",
-    "desc": "AllinSSL 是一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。支持 Let's Encrypt 证书申请、多平台部署（CDN/面板/云存储）、证书过期监控和安全入口保护。\n本应用为二进制封装版本，基于开源项目构建。",
+    "desc": "AllinSSL 是一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。支持 Let's Encrypt 证书申请、多平台部署（CDN/面板/云存储）、证书过期监控和安全入口保护。\n本应用为二进制封装版本，基于开源项目构建。x86架构。",
     "labels": "工具,网络,安全,SSL",
-    "author": "allinssl",
-    "author_url": "https://github.com/allinssl/allinssl",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/allinssl/allinssl/issues",
     "install_type": "系统空间",
     "size": "0.06",
+    "changelog": "x86架构适配",
     "history": {
       "1.0.0": "初始版本发布"
     }
   },
   "fpk-bark": {
     "display_name": "Bark Server",
+    "platform": "x86",
     "version": "1.0.0",
-    "desc": "Bark 推送通知服务端，支持 iOS、Android、macOS 设备的消息推送。\n提供 RESTful API 接口，方便集成到各种自动化脚本和系统中。",
+    "desc": "Bark 推送通知服务端，支持 iOS、Android、macOS 设备的消息推送。\n提供 RESTful API 接口，方便集成到各种自动化脚本和系统中。x86架构。",
     "labels": "工具,通知,推送,移动",
-    "author": "Finb",
-    "author_url": "https://github.com/Finb",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/Finb/Bark/issues",
     "install_type": "系统空间",
     "size": "5.6",
+    "changelog": "x86架构适配",
     "history": {
       "1.0.0": "初始版本发布"
     }
   },
   "fpk-factorio": {
     "display_name": "异星工厂服务器",
+    "platform": "x86",
     "version": "2.0.72",
     "desc": "异星工厂（Factorio）服务器 - 一个自动化工厂建设游戏服务器。\n支持多人联机，提供完整的游戏服务器管理功能。",
     "labels": "游戏,服务器,多人,自动化",
     "download_url": "https://github.com/yaya918/FnDepot/releases/download/1.0.0/fpk-factorio.fpk",
-    "author": "Wube Software",
-    "author_url": "https://www.factorio.com",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://forums.factorio.com",
     "install_type": "系统空间",
     "size": "86",
+    "changelog": "x86架构适配",
     "history": {
       "2.0.72": "最新稳定版本",
       "1.1.0": "性能优化和Bug修复"
@@ -45,29 +51,33 @@
   },
   "fpk-quark-auto-save": {
     "display_name": "夸克网盘自动转存",
+    "platform": "x86",
     "version": "1.0.0",
     "desc": "夸克网盘自动转存工具，集成pansou版本，实现一键搜索转存。\n支持自动转存、批量操作、任务管理等功能。",
     "labels": "工具,网盘,转存,自动化",
-    "author": "yayaol",
-    "author_url": "https://github.com/yayaol",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/yayaol/quark-auto-save/issues",
     "install_type": "系统空间",
     "size": "0.13",
+    "changelog": "x86架构适配",
     "history": {
       "1.0.0": "初始版本发布"
     }
   },
   "fpk-suwayomi": {
     "display_name": "Suwayomi Server",
+    "platform": "x86",
     "version": "v2.1.1867-4",
     "desc": "Suwayomi 是一个开源的漫画阅读服务器。\n支持多种漫画源，提供Web阅读界面和移动端应用。",
     "labels": "媒体,漫画,阅读,服务器",
     "download_url": "https://github.com/yaya918/FnDepot/releases/download/1.0.0/fpk-suwayomi.fpk",
-    "author": "Suwayomi",
-    "author_url": "https://github.com/Suwayomi",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/Suwayomi/Suwayomi-Server/issues",
     "install_type": "系统空间",
     "size": "310",
+    "changelog": "x86架构适配",
     "history": {
       "v2.1.1867-4": "指定运行环境变量为utf-8，修复漫画下载到100%保存失败的问题",
       "v2.1.1867-1": "飞牛NAS适配版本",
@@ -76,56 +86,65 @@
   },
   "fpk-xiaomi-album-syncer": {
     "display_name": "小米相册同步器",
+    "platform": "x86",
     "version": "0.10.0",
     "desc": "全量/增量/定时下载小米云服务中的相册/录音到本地。支持Web UI管理、自动刷新Cookie、按相册分类存储、定时任务等功能。安装后请添加passToken与userId后使用。",
     "labels": "工具,同步,相册,备份",
-    "author": "Coooolfan",
-    "author_url": "https://github.com/Coooolfan/XiaomiAlbumSyncer",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/Coooolfan/XiaomiAlbumSyncer/issues",
     "install_type": "系统空间",
     "size": "0.04",
+    "changelog": "x86架构适配",
     "history": {
       "0.10.0": "初始版本发布"
     }
   },
   "fpk-icloud-photos": {
     "display_name": "iCloud-Photos",
-    "version": "2.0.1",
-    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web项目。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。",
+    "platform": "x86",
+    "version": "2.0.3-2",
+    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web项目。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。修复了因上游更新引起的安装失败问题，提高大文件下载稳定性。",
     "labels": "工具,照片,备份,iCloud",
-    "author": "yaya",
-    "author_url": "https://b23.tv/DqP4Ji5",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/yaya918",
     "install_type": "系统空间",
     "size": "0.9",
+    "changelog": "修复因上游更新引起的安装失败问题，提高大文件下载稳定性",
     "history": {
-      "2.0.1": "初始版本发布"
+      "2.0.1": "初始版本发布",
+      "2.0.3-2": "修复因上游更新引起的安装失败问题，提高大文件下载稳定性"
     }
   },
   "fpk-scrypted": {
     "display_name": "Scrypted",
+    "platform": "x86",
     "version": "0.144.2",
     "desc": "Scrypted是一个高性能家庭视频集成平台和NVR（网络视频录像机），支持HomeKit、Google Home和Alexa。提供实时视频流、智能检测、插件化架构，可将各种摄像头和智能设备集成到统一的智能家居生态中。基于Scrypted开源项目进行打包。数据默认保存在/vol[x]/@appshare/scrypted-data（路径中不能存在中文）。",
     "labels": "智能家居,视频,NVR,摄像头,HomeKit",
-    "author": "koush",
-    "author_url": "https://github.com/koush/scrypted",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/koush/scrypted/issues",
     "install_type": "系统空间",
     "size": "1.9",
+    "changelog": "x86架构适配",
     "history": {
       "0.144.2": "初始版本发布"
     }
   },
   "fpk-crowdsec": {
     "display_name": "CrowdSec",
+    "platform": "x86",
     "version": "1.7.6-19",
     "desc": "CrowdSec 是一个开源的、协作式的入侵防御系统（IPS），通过收集和分析来自全球用户的安全威胁情报，为服务器提供实时的安全防护。支持威胁检测、自动防护、全球协作、轻量级运行和易于集成。适用于 Web 服务器防护、SSH 暴力破解防护、API 接口防护、DDoS 攻击缓解等场景。",
     "labels": "安全,防护,入侵检测,网络安全",
-    "author": "crowdsecurity",
-    "author_url": "https://github.com/crowdsecurity/crowdsec",
+    "distributor": "yayaol",
+    "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/crowdsecurity/crowdsec/issues",
     "install_type": "系统空间",
     "size": "49",
+    "changelog": "x86架构适配",
     "history": {
       "1.7.6-19": "修复了雷池日志配置",
       "1.0.0": "初始版本发布"
