@@ -5,7 +5,6 @@
 
 | 应用名称 | 版本号 | 开发者/GitHub仓库 | 备注 |
 |---------|--------|------------------|------|
-| AllinSSL | 1.0.0 | allinssl/https://github.com/allinssl/allinssl | SSL证书管理工具 |
 | Bark Server | 1.0.0 | Finb/https://github.com/Finb | 推送通知服务端（和商店版本一样） |
 | 异星工厂服务器 | 2.0.72 | Wube Software/https://www.factorio.com | 自动化工厂游戏服务器 |
 | 夸克网盘自动转存 | 1.0.0 | Cp0204/https://github.com/Cp0204/quark-auto-save | 网盘自动转存工具（Docker应用） |
@@ -13,7 +12,7 @@
 | 小米相册同步器 | 0.10.0 | Coooolfan/https://github.com/Coooolfan/XiaomiAlbumSyncer | 小米云服务相册/录音备份工具 |
 | iCloud-Photos | 2.0.3-2 | yaya/https://github.com/yaya918 | iCloud照片下载工具（修复了因上游更新引起的安装失败问题，提高大文件下载稳定性） |
 | Scrypted | 0.144.2 | koush/https://github.com/koush/scrypted | 智能家居视频集成平台和NVR（和商店版本一样） |
-| CrowdSec | 1.7.6-19 | crowdsecurity/https://github.com/crowdsecurity/crowdsec | 开源协作式入侵防御系统 |
+| RustDesk Server | 1.1.11 | rustdesk/https://github.com/rustdesk/rustdesk | 开源远程桌面服务器 |
 
 ---
 
@@ -31,7 +30,6 @@
 
 ## 包含的应用
 
-1. **allinssl** - AllinSSL SSL证书管理工具
 2. **bark** - Bark 推送通知服务端
 3. **factorio** - 异星工厂游戏服务器
 4. **quark-auto-save** - 夸克网盘自动转存工具
@@ -39,7 +37,7 @@
 6. **xiaomi-album-syncer** - 小米相册同步器
 7. **icloud-photos** - iCloud照片下载工具
 8. **scrypted** - 智能家居视频集成平台和NVR
-9. **crowdsec** - CrowdSec 安全防护系统
+10. **rustdesk-server** - RustDesk 远程桌面服务器
 
 
 ## 关于作者

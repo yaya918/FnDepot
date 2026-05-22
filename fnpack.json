@@ -1,20 +1,4 @@
 {
-  "fpk-allinssl": {
-    "display_name": "AllinSSL",
-    "platform": "x86",
-    "version": "1.0.0",
-    "desc": "AllinSSL 是一个集证书申请、管理、部署和监控于一体的SSL证书全生命周期管理工具。支持 Let's Encrypt 证书申请、多平台部署（CDN/面板/云存储）、证书过期监控和安全入口保护。\n本应用为二进制封装版本，基于开源项目构建。x86架构。",
-    "labels": "工具,网络,安全,SSL",
-    "distributor": "yayaol",
-    "distributor_url": "https://github.com/yaya918/FnDepot",
-    "bug_report_url": "https://github.com/allinssl/allinssl/issues",
-    "install_type": "系统空间",
-    "size": "0.06",
-    "changelog": "x86架构适配",
-    "history": {
-      "1.0.0": "初始版本发布"
-    }
-  },
   "fpk-bark": {
     "display_name": "Bark Server",
     "platform": "x86",
@@ -133,21 +117,20 @@
       "0.144.2": "初始版本发布"
     }
   },
-  "fpk-crowdsec": {
-    "display_name": "CrowdSec",
-    "platform": "x86",
-    "version": "1.7.6-19",
-    "desc": "CrowdSec 是一个开源的、协作式的入侵防御系统（IPS），通过收集和分析来自全球用户的安全威胁情报，为服务器提供实时的安全防护。支持威胁检测、自动防护、全球协作、轻量级运行和易于集成。适用于 Web 服务器防护、SSH 暴力破解防护、API 接口防护、DDoS 攻击缓解等场景。",
-    "labels": "安全,防护,入侵检测,网络安全",
+  "fpk-rustdesk-server": {
+    "display_name": "RustDesk Server",
+    "platform": ["x86", "arm"],
+    "version": "1.1.11",
+    "desc": "RustDesk 是一个开源的远程桌面软件，类似于 TeamViewer。本应用提供 ID 服务器和中继服务器，支持 RustDesk 客户端远程访问你的 NAS。内置 Web 管理界面方便配置。x86架构。",
+    "labels": "工具,远程桌面,服务器",
     "distributor": "yayaol",
     "distributor_url": "https://github.com/yaya918/FnDepot",
-    "bug_report_url": "https://github.com/crowdsecurity/crowdsec/issues",
-    "install_type": "系统空间",
-    "size": "49",
-    "changelog": "x86架构适配",
+    "bug_report_url": "https://github.com/rustdesk/rustdesk/issues",
+    "install_type": "存储空间",
+    "size": "27",
+    "changelog": "RustDesk Server 飞牛 NAS 适配版本，支持多架构安装，内置 Web 管理界面，提供 ID 服务器和中继服务器功能。",
     "history": {
-      "1.7.6-19": "修复了雷池日志配置",
-      "1.0.0": "初始版本发布"
+      "1.1.11": "初始版本发布"
     }
   }
 }
