@@ -132,10 +132,10 @@
     "bug_report_url": "https://github.com/yaya918/FnDepot/issues",
     "install_type": "系统空间",
     "size": "0.21",
-    "changelog": "x86 v1.1.3 + ARM v1.1.2 同步发布",
+    "changelog": "x86/ARM 统一版本号 1.1.3；同步 x86 的 fn-bridge-health.sh、index.cgi、index.html、cmd/main 升级",
     "history": {
-      "1.1.3": "x86 最新版本",
-      "1.1.2": "ARM 版本（功能同步）"
+      "1.1.3": "x86/ARM 统一版本号 1.1.3；同步 x86 的 4 个文件升级（fn-bridge-health.sh、index.cgi、frontend/index.html、cmd/main）",
+      "1.1.2": "ARM 历史版本（功能落后 x86 一版）"
     }
   },
   "fpk-rustdesk-server": {

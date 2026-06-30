@@ -35,5 +35,5 @@
 
 ## 版本历史
 
-- v1.1.3：x86 最新稳定版
-- v1.1.2：ARM 稳定版
+- v1.1.3：x86/ARM 统一版本号；同步 x86 的 fn-bridge-health.sh、index.cgi、frontend/index.html、cmd/main 升级
+- v1.1.2：ARM 历史版本（功能落后 x86 一版）
