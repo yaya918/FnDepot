@@ -87,18 +87,19 @@
   "fpk-icloud-photos": {
     "display_name": "iCloud-Photos",
     "platform": "x86",
-    "version": "2.0.3-2",
-    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web项目。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。修复了因上游更新引起的安装失败问题，提高大文件下载稳定性。",
+    "version": "2.1.0-55",
+    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web 2026.4.20.post1项目（更新iCloud Photos Downloader，并进行了汉化和性能优化。修复了自动删除选项会删除本地文件的bug，支持大文件流式下载降低内存占用）。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。数据默认保存在/vol[x]/@appshare/icloud-photos（路径中不能存在中文）。",
     "labels": "工具,照片,备份,iCloud",
     "distributor": "yayaol",
     "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/yaya918",
-    "install_type": "系统空间",
-    "size": "0.9",
-    "changelog": "修复因上游更新引起的安装失败问题，提高大文件下载稳定性",
+    "install_type": "存储空间",
+    "size": "4.4",
+    "changelog": "更新至 2026.4.20.post1，汉化并优化性能，修复自动删除本地文件bug，支持大文件流式下载降低内存占用",
     "history": {
       "2.0.1": "初始版本发布",
-      "2.0.3-2": "修复因上游更新引起的安装失败问题，提高大文件下载稳定性"
+      "2.0.3-2": "修复因上游更新引起的安装失败问题",
+      "2.1.0-55": "更新至 2026.4.20.post1，汉化并优化性能，修复自动删除本地文件bug，支持大文件流式下载降低内存占用"
     }
   },
   "fpk-scrypted": {
@@ -119,18 +120,22 @@
   },
   "fpk-rustdesk-server": {
     "display_name": "RustDesk Server",
-    "platform": ["x86", "arm"],
-    "version": "1.1.11",
-    "desc": "RustDesk 是一个开源的远程桌面软件，类似于 TeamViewer。本应用提供 ID 服务器和中继服务器，支持 RustDesk 客户端远程访问你的 NAS。内置 Web 管理界面方便配置。x86架构。",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "version": "2.9.2-10",
+    "desc": "RustDesk 是一个开源的远程桌面软件，类似于 TeamViewer。本应用提供 ID 服务器和中继服务器，支持 RustDesk 客户端远程访问你的 NAS。内置 Web 管理界面方便配置。支持 x86 和 ARM 双架构。",
     "labels": "工具,远程桌面,服务器",
-    "distributor": "yayaol",
+    "distributor": "yaya",
     "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/rustdesk/rustdesk/issues",
     "install_type": "存储空间",
     "size": "27",
-    "changelog": "RustDesk Server 飞牛 NAS 适配版本，支持多架构安装，内置 Web 管理界面，提供 ID 服务器和中继服务器功能。",
+    "changelog": "升级到 2.9.2-10，x86 和 ARM 架构统一版本号；修复若干稳定性问题；保留 API Key/数据库/配置以支持升级测试。",
     "history": {
-      "1.1.11": "初始版本发布"
+      "1.1.11": "初始版本发布",
+      "2.9.2-10": "升级到 2.9.2-10，x86 和 ARM 架构统一版本号，修复若干稳定性问题"
     }
   }
 }
