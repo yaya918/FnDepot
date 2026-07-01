@@ -56,3 +56,4 @@ RustDesk 是一个开源的远程桌面软件，类似于 TeamViewer。本仓库
 
 - v1.1.11: 初始版本发布
 - v2.9.2-10: 升级到 RustDesk 2.9.2-10；x86 与 ARM 架构统一版本号；修复若干稳定性问题；升级测试保留 key/db/conf
+- v2.9.2-11: 修复 config/privilege 与 config/resource 内容写反（privilege 装运行身份，resource 装 data-share 共享）；详见 https://developer.fnnas.com/docs/core-concepts/privilege
