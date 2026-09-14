@@ -12,7 +12,7 @@
 | 小米相册同步器 | 0.10.0 | Coooolfan/https://github.com/Coooolfan/XiaomiAlbumSyncer | 小米云服务相册/录音备份工具 |
 | iCloud-Photos | 2.1.0-56 | yaya/https://github.com/yaya918 | iCloud照片下载工具（基于 icloudpd-web 2026.7.24，支持 iCloud.com.cn 中国账户） |
 | Scrypted | 0.144.2 | koush/https://github.com/koush/scrypted | 智能家居视频集成平台和NVR（和商店版本一样） |
-| OVS 网桥 | 1.1.3 | yaya/https://github.com/yaya918 | 基于 Open vSwitch 的网口桥接工具，支持健康检测（x86+ARM） |
+| OVS 网桥 | 1.1.4 | yaya/https://github.com/yaya918 | 基于 Open vSwitch 的网口桥接工具，支持健康检测（x86+ARM） |
 | RustDesk Server | 2.9.2-10 | rustdesk/https://github.com/rustdesk/rustdesk | 开源远程桌面服务器（x86+ARM 统一版本号） |
 
 ---
