@@ -31,3 +31,15 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# 备份文件（打包/升级前的自动备份，格式 *.bak_<版本>_<时间戳>）
+*.bak_*
+fnpack.json.bak_*
+README.md.bak_*
+
+# 备份目录
+fpk-*/backup_*/
+fpk-*.bak_*/
+
+# 大体积 fpk（超过 100MB，不入库，走 release 或商店分发）
+fpk-suwayomi/Suwayomi.fpk

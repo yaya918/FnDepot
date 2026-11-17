@@ -52,7 +52,7 @@
   "fpk-suwayomi": {
     "display_name": "Suwayomi Server",
     "platform": "x86",
-    "version": "v2.1.1867-4",
+    "version": "2.4.2366-1",
     "desc": "Suwayomi 是一个开源的漫画阅读服务器。\n支持多种漫画源，提供Web阅读界面和移动端应用。",
     "labels": "媒体,漫画,阅读,服务器",
     "download_url": "https://github.com/yaya918/FnDepot/releases/download/1.0.0/fpk-suwayomi.fpk",
@@ -61,11 +61,12 @@
     "bug_report_url": "https://github.com/Suwayomi/Suwayomi-Server/issues",
     "install_type": "系统空间",
     "size": "310",
-    "changelog": "x86架构适配",
+    "changelog": "升级至 Suwayomi Server v2.4.2366（跨 2.2/2.3/2.4 三个大版本）：上游改为 H2/PostgreSQL 数据库并内置 WebUI，重写 server.conf 模板适配 v2.4 配置项（认证改为 authMode 统一认证、extensionRepos 改为 extensionStores）",
     "history": {
-      "v2.1.1867-4": "指定运行环境变量为utf-8，修复漫画下载到100%保存失败的问题",
+      "2.4.2366-1": "升级至 Suwayomi Server v2.4.2366（跨 2.2/2.3/2.4 三个大版本）：上游改为 H2/PostgreSQL 数据库并内置 WebUI，重写 server.conf 模板适配 v2.4 配置项（认证改为 authMode 统一认证、extensionRepos 改为 extensionStores）",
+      "v2.1.1867": "主要功能更新和Bug修复",
       "v2.1.1867-1": "飞牛NAS适配版本",
-      "v2.1.1867": "主要功能更新和Bug修复"
+      "v2.1.1867-4": "指定运行环境变量为utf-8，修复漫画下载到100%保存失败的问题"
     }
   },
   "fpk-xiaomi-album-syncer": {
@@ -86,21 +87,22 @@
   },
   "fpk-icloud-photos": {
     "display_name": "iCloud-Photos",
-    "platform": "x86",
-    "version": "2.1.0-56",
-    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web 2026.4.20.post1项目（更新iCloud Photos Downloader，并进行了汉化和性能优化。修复了自动删除选项会删除本地文件的bug，支持大文件流式下载降低内存占用）。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。数据默认保存在/vol[x]/@appshare/icloud-photos（路径中不能存在中文）。",
+    "platform": "all",
+    "version": "2.1.0-66",
+    "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web 2026.11.12项目（修复中国区账户共享相簿发现失败：相簿发现会带上策略中的Domain设置，大陆账户需设为cn。更新iCloud Photos Downloader到1.32.3，并进行了汉化和性能优化。修复了自动删除选项会删除本地文件的bug，支持大文件流式下载降低内存占用）。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。数据默认保存在/vol[x]/@appshare/icloud-photos（路径中不能存在中文）。",
     "labels": "工具,照片,备份,iCloud",
     "distributor": "yayaol",
     "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/yaya918",
     "install_type": "存储空间",
-    "size": "4.4",
-    "changelog": "更新至 icloudpd-web 2026.7.24，iCloud Photos Downloader 升级到 1.32.3，支持 iCloud.com.cn 中国账户",
+    "size": 0.9,
+    "changelog": "更新至 icloudpd-web 2026.11.12，修复中国区账户共享相簿发现失败（需在策略中将Domain设为cn）；前端汉化全面补齐（按钮/表单标签/说明文字/状态提示/Toast消息全覆盖）",
     "history": {
       "2.0.1": "初始版本发布",
       "2.0.3-2": "修复因上游更新引起的安装失败问题",
       "2.1.0-55": "更新至 2026.4.20.post1，汉化并优化性能，修复自动删除本地文件bug，支持大文件流式下载降低内存占用",
-      "2.1.0-56": "更新至 icloudpd-web 2026.7.24，iCloud Photos Downloader 升级到 1.32.3，支持 iCloud.com.cn 中国账户"
+      "2.1.0-56": "更新至 icloudpd-web 2026.7.24，iCloud Photos Downloader 升级到 1.32.3，支持 iCloud.com.cn 中国账户",
+      "2.1.0-57": "更新至 icloudpd-web 2026.11.12，修复中国区账户共享相簿发现失败（需在策略中将Domain设为cn）；前端汉化全面补齐（按钮/表单标签/说明文字/状态提示/Toast消息全覆盖）"
     }
   },
   "fpk-scrypted": {
@@ -146,18 +148,22 @@
       "x86",
       "arm"
     ],
-    "version": "2.9.2-10",
+    "version": "2.9.2-16",
     "desc": "RustDesk 是一个开源的远程桌面软件，类似于 TeamViewer。本应用提供 ID 服务器和中继服务器，支持 RustDesk 客户端远程访问你的 NAS。内置 Web 管理界面方便配置。支持 x86 和 ARM 双架构。",
     "labels": "工具,远程桌面,服务器",
     "distributor": "yaya",
     "distributor_url": "https://github.com/yaya918/FnDepot",
     "bug_report_url": "https://github.com/rustdesk/rustdesk/issues",
     "install_type": "存储空间",
-    "size": "27",
-    "changelog": "升级到 2.9.2-10，x86 和 ARM 架构统一版本号；修复若干稳定性问题；保留 API Key/数据库/配置以支持升级测试。",
+    "size": 30,
+    "changelog": "修复升级/重装后数据丢失：卸载默认保留数据目录(可选彻底删除)，安装不再覆盖用户已修改的 config.yaml(保留 API Key/管理员密码/自定义地址/数据库路径)，升级前自动快照数据库与密钥(保留最近3份)；修复配置页命令注入漏洞；修复改 API Key 会污染 JWT 签名密钥；修复中继地址回落 0.0.0.0 导致客户端连不上中继；修复 hbbs 因 HOME 目录不存在而无法保存自身配置(cmd/main 与 install_callback 均显式设置 HOME 与 XDG_* 指向应用目录)。服务端核心 rustdesk-server 1.1.16(官方)，API 组件 rustdesk-api v4.3.1(alonginwind 维护版, WebClient 1.5.1)，数据库无损兼容。",
     "history": {
       "1.1.11": "初始版本发布",
-      "2.9.2-10": "升级到 2.9.2-10，x86 和 ARM 架构统一版本号，修复若干稳定性问题"
+      "2.9.2-10": "升级到 2.9.2-10，x86 和 ARM 架构统一版本号，修复若干稳定性问题",
+      "2.9.2-13": "升级服务端核心至 rustdesk-server 1.1.16，修复 UDP 反射放大漏洞与 i32 溢出误报在线问题，x86/ARM 双架构同步",
+      "2.9.2-14": "修复升级/重装后数据丢失(卸载默认保留+升级前快照+安装不覆盖配置)，修复命令注入/JWT密钥污染/中继地址0.0.0.0三个缺陷，API 组件升级至 v4.3.1，服务端核心 1.1.16",
+      "2.9.2-15": "修复 hbbs HOME/XDG 目录不存在导致无法保存配置；安装/卸载/升级数据保留机制经真机安装验证",
+      "2.9.2-16": "修复 install_callback 密钥生成阶段 hbbs 同样缺 HOME 导致每次安装报一次 Failed to store config"
     }
   }
 }
