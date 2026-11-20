@@ -88,7 +88,7 @@
   "fpk-icloud-photos": {
     "display_name": "iCloud-Photos",
     "platform": "all",
-    "version": "2.1.0-68",
+    "version": "2.1.0-69",
     "desc": "一个带有Web界面的iCloud照片下载工具，基于icloudpd-web 2026.11.12项目（修复中国区账户共享相簿发现失败：相簿发现会带上策略中的Domain设置，大陆账户需设为cn。更新iCloud Photos Downloader到1.32.3，并进行了汉化和性能优化。修复了自动删除选项会删除本地文件的bug，支持大文件流式下载降低内存占用）。支持Linux系统，提供直观的Web界面进行配置和管理，支持多账号、定时同步、实时监控等功能。数据默认保存在/vol[x]/@appshare/icloud-photos（路径中不能存在中文）。",
     "labels": "工具,照片,备份,iCloud",
     "distributor": "yayaol",
